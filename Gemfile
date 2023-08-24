@@ -7,7 +7,7 @@ end
 
 ruby '2.5.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.7', '>= 6.1.7.2'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.5'
 # Use sqlite3 as the database for Active Record
 
 #Use bcrypt for password on user ActiveModel
@@ -20,7 +20,7 @@ gem 'bootstrap-will_paginate', '1.0.0'
 gem 'puma', '~> 4.3', '>= 4.3.12'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.4.0'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.6.0'
 gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -32,7 +32,7 @@ gem 'execjs'
 gem 'simplecov', require: false, group: :test
 
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
+gem 'coffee-rails', '~> 5.0', '>= 5.0.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
